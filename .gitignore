@@ -4,7 +4,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-src/main/resources/application-dev.properties
+# Place API keys in this file to keep them out of the repository for security.
+.env
 
 ### STS ###
 .apt_generated

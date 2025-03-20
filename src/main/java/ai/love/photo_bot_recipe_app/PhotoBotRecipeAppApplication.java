@@ -10,4 +10,5 @@ public class PhotoBotRecipeAppApplication {
 		SpringApplication.run(PhotoBotRecipeAppApplication.class, args);
 	}
 
+
 }

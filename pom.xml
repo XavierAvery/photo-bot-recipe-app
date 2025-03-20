@@ -12,7 +12,7 @@
 	<artifactId>photo-bot-recipe-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>photo-bot-recipe-app</name>
-	<description>AI app using OpenAI model that has a photo generator chatbot and recipe generator.</description>
+	<description>AI app using an OpenAI model that has a photo generator, chatbot, and recipe generator.</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -36,7 +36,7 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.ai</groupId>
+			<groupId>org.springframework.ai</groupId> <!-- Must generate an API key from OpenAI to run app -->
 			<artifactId>spring-ai-openai-spring-boot-starter</artifactId>
 		</dependency>
 
